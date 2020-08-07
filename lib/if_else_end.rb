@@ -1,8 +1,7 @@
 current_time = Time.now
-puts "Let's go outside!"
-if chance_of_rain > 0.5
-  puts "Pack an umbrella!"
+if chance_of_rain == Even
+  puts "Even!"
 else
-  puts "Enjoy the fine day!"
+  puts "Odd!"
 end
-puts "Oh, and always wear sunscreen!"
+
