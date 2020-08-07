@@ -4,4 +4,3 @@ if chance_of_rain == Even
 else
   puts "Odd!"
 end
-
